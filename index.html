@@ -6,54 +6,260 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PATO</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+
 </head>
 <body>
-    <div class="wrap-menu-header">
-        <div class="container">
-        <div class="wrap_header">
-        
-        <div class="logo"><a href=""><img src="./assets/img/logo.png.webp" alt="IMG-LOGO"></a>
+    <header>
+        <div class="wrap-menu-header">
+            <div class="container h-fullr">
+                <div class="wrap_header">
+                    <div class="logo">
+                        <a href=""><img src="./assets/img/logo.png.webp" alt="IMG-LOGO" /></a>
+                    </div>
+    
+                    <div class="wrap_menu">
+                        <nav class="menu">
+                            <ul class="main_menu">
+                                <li><a href="">Home</a></li>
+                                <li><a href="">Menu</a></li>
+                                <li><a href="">Reservation</a></li>
+                                <li><a href="">Gallery</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Blog</a></li>
+                                <li><a href="">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+    
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-discord"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <button class="btn-show"></button>
+                    </div>
+                </div>
+            </div>
         </div>
-        
-        <div class="wrap_menu">
-        <nav class="menu">
-        <ul class="main_menu">
-            <li><a href="">Home</a></li>
-            <li><a href="">Menu</a></li>
-            <li><a href="">Reservation</a></li>
-            <li><a href="">Gallery</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-        </nav>
-        </div>
-        
-        <div class="social">
-        <a href="#"><i class="tripadvisor" aria-hidden="true"></i></a>
-        <a href="#"><i class="facebook" aria-hidden="true"></i></a>
-        <a href="#"><i class="twitter" aria-hidden="true"></i></a>
-        <button class="btn-show-sidebar"></button>
-        </div>
-        </div>
-        </div>
-        </div>
-
+    </header>    
+    <section class="section-slide">
         <div class="slider">
-            <div class="wrap-content ">
-                <span class="caption1" data-appear="rotateInDownLeft">
-                Welcome to
-                </span>
-                <h2 class="caption2" data-appear="rotateInUpRight">
-                Pato Place
+        <div class="wrap-content">
+            <div class="slider-item" id="slider-1">
+                <div class="slider-item-image">
+                    <img src="./assets/img/slide1.jpg"alt="">
+                </div>
+                <h2 class="caption1" data-appear="rotateInDownLeft">
+                    Welcome to
                 </h2>
-                <div class="wrap-btn-slide1 animated visible-false" data-appear="rotateIn">
-                
-                <a href="" class="btn1" tabindex="-1">
-                Look Menu
-                </a>
+                <h1 class="caption2" data-appear="rotateInUpRight">Pato Place</h1>
+                <div class="btn1"> Look Menu</div>
+            </div>
+            <div class="slider-item" id="slider-2">
+                <div class="slider-item-image">
+                    <img src="./assets/img/slide2.jpg"alt="">
                 </div>
+                <h2 class="caption1" data-appear="rotateInDownLeft">
+                    Welcome to
+                </h2>
+                <h1 class="caption2" data-appear="rotateInUpRight">Pato Place</h1>
+                <div class="btn1"> Look Menu</div>
+            </div>
+            <div class="slider-item" id="slider-3">
+                <div class="slider-item-image">
+                    <img src="./assets/img/slide3.jpg"alt="">
                 </div>
-        </div>          
+                <h2 class="caption1" data-appear="rotateInDownLeft">
+                    Welcome to
+                </h2>
+                <h1 class="caption2" data-appear="rotateInUpRight">Pato Place</h1>
+                <div class="btn1"> Look Menu</div>
+            </div>
+
+        </div>
+        <div class="slide-dot">
+            <a href="#slider-1"></a>
+            <a href="#slider-2"></a>
+            <a href="#slider-3"></a>
+        </div>
+    </div>
+    </section>
+    <section class="section-welcome">
+        <div class="container-welcome">
+            <div class="wrap-content">
+                <div class="welcome__container-description">
+                    <div class="welcome__wrap-text">
+                        <span class="description__tittle1">
+                            Italian Restaurant
+                        </span>
+                        <h3 class="description__tittle2">
+                            welcome
+                        </h3>
+                        <p class="description">
+                            Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed fringilla, nunc sed
+                            imperdiet lacinia, nisl ante egestas mi, ac facilisis ligula sem id neque.
+                        </p>
+                        <a href="#" class="link-story">
+                            Our Story
+                            <i class="ti-arrow-circle-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="welcome__container-img">
+                    <div class="welcome__wrap-img">
+                        <img src="./assets/img/section-welcome.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-intro">
+        <div class="header-intro" style="background-image: url(&quot;./assets/img/bg-intro-01.jpg&quot;); background-position: center 117.4px;">
+            <span class="intro__tit1">Discover</span>
+            <h3 class="intro__tit2">PATO PLACE</h3>
+        </div>
+        <div class="content-intro">
+            <div class="container-intro">
+                <div class="wrap-intro">
+                    <div class="intro">
+                        <div class="block">
+                            <div class="intro__wrap-img">
+                                <a href="#"><img class="intro__img" src="./assets/img/intro-01.jpg"></a>
+                            </div>
+                            <div class="intro__wrap-text">
+                                <a href="#">
+                                    <h4 class="text__title">
+                                        Romantic Restaurant
+                                    </h4>
+                                </a>
+                                <p>
+                                    Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.
+                                </p>
+                                <a href="#" class="text__more">
+                                    Learn More
+                                    <i class="ti-arrow-circle-right ml10"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="intro">
+                        <div class="block">
+                            <div class="intro__wrap-img">
+                                <a href="#"><img class="intro__img" src="./assets/img/intro-02.jpg"></a>
+                            </div>
+                            <div class="intro__wrap-text">
+                                <a href="#">
+                                    <h4 class="text__title">
+                                        Delicious Food
+                                    </h4>
+                                </a>
+                                <p>
+                                    Aliquam eget aliquam magna, quis posuere risus ac justo ipsum nibh urna
+                                </p>
+                                <a href="#" class="text__more">
+                                    Learn More
+                                    <i class="ti-arrow-circle-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="intro">
+                        <div class="block">
+                            <div class="intro__wrap-img">
+                                <a href="#"><img class="intro__img" src="./assets/img/intro-04.jpg"></a>
+                            </div>
+                            <div class="intro__wrap-text">
+                                <a href="#">
+                                    <h4 class="text__title">
+                                        Red Wines You Love
+                                    </h4>
+                                </a>
+                                <p>
+                                    Sed ornare ligula eget tortor tempor, quis porta tellus dictum.
+                                </p>
+                                <a href="#" class="text__more">
+                                    Learn More
+                                    <i class="ti-arrow-circle-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-ourmenu">
+        <div class="container">
+            <div class="title-section-ourmenu">
+                <span class="ourmenu__title1">
+                    Discover
+                </span>
+                <h3 class="ourmenu__title2">
+                    Our Menu
+                </h3>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="item-ourmenu">
+                                <img src="./assets/img/our-menu1.jpg">
+                                <a href="#" class="btn-view btn-lunch">
+                                    Lunch
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="item-ourmenu">
+                                <img src="./assets/img/our-menu2.jpg">
+                                <a href="#" class="btn-view btn-dinner">
+                                        Dinner
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="item-ourmenu">
+                                <img src="./assets/img/our-menu3.jpg">
+                                <a href="#" class="btn-view btn-happyhour">
+                                    Happy Hour
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="item-ourmenu">
+                                <img src="./assets/img/our-menu4.jpg">
+                                <a href="#" class="btn-view btn-drink">
+                                    Drink
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="item-ourmenu">
+                                <img src="./assets/img/our-menu5.jpg">
+                                <a href="#" class="btn-view btn-starter">
+                                    Starters
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="item-ourmenu">
+                                <img src="./assets/img/our-menu6.jpg">
+                                <a href="#" class="btn-view btn-dessert">
+                                    Dessert
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
 </body>
 </html>
